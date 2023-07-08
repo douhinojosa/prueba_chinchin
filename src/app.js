@@ -3,7 +3,6 @@ const express = require("express");
 const morgan = require("morgan");
 const cors = require("cors");
 const tokenRoute = require('./routes/tokenRoute.js');
-const { saveTokens, updateTokens } = require('./services/tokenService.js');
 const scheduledUpdateTokens = require('./scheduled/updateTokens.js')
 
 //initialize express app
