@@ -1,5 +1,6 @@
 # prueba_chinchin
 Instalar las dependencias para el funcionamiento del API
+
 $npm i
 
 Se debe renombrar el archivo .env-example a .env en el directorio /. 
@@ -13,4 +14,5 @@ Cambiar a al directorio src y correr el comando
 $npx sequelize-cli db:migrate
 
 Para correr el API se deben escribir los siguiente comando
+
 $npm run dev
